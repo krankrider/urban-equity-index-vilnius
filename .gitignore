@@ -1,0 +1,39 @@
+# Python virtual environments
+.venv/
+venv/
+ENV/
+env/
+*.venv
+
+# Byte-compiled / optimized Python files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS artifacts
+.DS_Store
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Build/dist directories (if any)
+build/
+dist/
+*.egg-info/
+
+# Data caches or large binaries (customize if needed; e.g., ignore raw data if it's huge and downloadable)
+# data/raw/*  # Uncomment if you don't want to commit raw data
+# data/processed/*  # Uncomment if processed data is regeneratable from code
+
+# Other common ignores
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.swp
+*.swo
